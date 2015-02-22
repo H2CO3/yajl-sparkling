@@ -28,8 +28,8 @@ where `configOpts` is a hashmap containing the following keys and values:
 
 ## Parsing options
 
-* `comment`: enable embedding C-style comments into the JSON string
-[`true`/`false`].
+* `comment`: allow embedding C-style comments into the JSON string
+(`true`/`false`).
 
 * `parse_null`: when the JSON value `null` is found, emit the special
 `YAJL["null"]` value (which is of type user info) if `true`. If `false`,
